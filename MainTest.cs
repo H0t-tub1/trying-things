@@ -38,6 +38,11 @@ namespace MainSaver
                 ListWrite(FileName)
                 MessageBox.Show("Your ammount has been listed", "Save Done", MessageBoxButtons.OK);
             }
+            else
+            {
+                NumWirite(FileName);
+                MessageBox.Show("Your amount has not been saved", "Damn dude sorry", MessageBoxButtons.OK);
+            }
         }
         
             
